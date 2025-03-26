@@ -8,6 +8,6 @@ function uuidv4() {
 var ccLauncherConfig = {
     studentId: uuidv4(),
     studentName: "Unknown User",
-    postStudentData: false,
-    postUrl: ''
+    postStudentData: true,
+    postUrl: 'https://dottietest.free.beeceptor.com'
 };
