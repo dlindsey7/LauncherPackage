@@ -6,8 +6,8 @@ function uuidv4() {
 }
 
 var ccLauncherConfig = {
-    studentId: "dottie.lindsey@rusticisoftware.com",
-    studentName: "Dottie Lindsey",
+    studentId: uuidv4(),
+    studentName: "Unknown Learner",
     postStudentData: true,
     postUrl: 'https://dottietest.free.beeceptor.com'
 };
